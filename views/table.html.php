@@ -11,7 +11,7 @@
     <title>Jeu devine</title>
 </head>
 
-<body class="container mt-5">
+<body class="container mt-3">
     <h1 class="text-center my-4">Jeu devine</h1>
     <div class="row d-flex">
         <div class="col-3">
@@ -174,9 +174,9 @@
     </div>
     <div class="text-center">
         <?php if ($letter === count($array) - 1) : ?>
-            <a href="index.php">Recommencer</a>
+            <a href="index.php" class="btn btn-primary">Recommencer</a>
         <?php else : ?>
-            <a href="index.php?jeu=<?= $letter + 1 ?>">recommencer</a>
+            <a href="index.php?jeu=<?= $letter + 1 ?>" class="btn btn-primary">Recommencer</a>
         <?php endif ?>
     </div>
 

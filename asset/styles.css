@@ -2,6 +2,10 @@ body {
   background-color: rgb(230, 230, 230);
   font-family: "Montserrat", sans-serif;
 }
+
+h3 {
+  color: red;
+}
 ul {
   padding-left: 0;
   padding-top: 10px;
